@@ -1,0 +1,16 @@
+.randomBtn {
+  padding: 1rem 1.5rem;
+  border-radius: var(--border-radius);
+  cursor: pointer;
+  border: 2px solid yellow;
+  background-color: yellow;
+  color: #033566;
+  font-weight: 700;
+  font-size: 1.02rem;
+  transition: 0.3s ease;
+
+  &:hover {
+    background-color: #033566;
+    color: yellow;
+  }
+}
